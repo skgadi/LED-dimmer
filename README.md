@@ -1,12 +1,14 @@
 # Matriz LED
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/k8CQs07Pgw4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 El LED es una fuente de luz constituida por un material semiconductor dotado de dos terminales. Es una alternativa rentable de bajo consumo en comparación con otras fuentes de luz como los bombillos o las lámparas fluorescentes.
 
 Para este proyecto utilizamos LEDs blancos ultra brillantes que funcionan con un voltaje de 3.5v a 20mA diseñamos una matriz bastante sencilla que necesita una fuente de alimentación de 12v y 600mA para funcionar.
 
 Usamos este simple circuito para encender 2 LEDs su corriente es de 22mA y nuestro reflector será de 50 LEDs así que pusimos el circuito 25 veces de la misma fuente, la corriente total de la matriz es de 550mA.
 
-Usamos una placa fenólica de 5cm x 10cm donde acomodamos los LEDs con el programa proteus hicimos el diseño para la placa fenólica. Este diseño esta disponible en carpeta [Circuito](https://github.com/skgadi/LED-dimmer/Circuito).
+Usamos una placa fenólica de 5cm x 10cm donde acomodamos los LEDs con el programa proteus hicimos el diseño para la placa fenólica. Este diseño esta disponible en la carpeta [Circuito](https://github.com/skgadi/LED-dimmer/tree/master/Circuito).
 
 ![Circuito LED a 12V y 22mA](/Imagenes/circuito_led.jpg)
 
@@ -16,7 +18,7 @@ Para poder controlar cualquier proyecto con un Smartphone es necesario diseñar 
 
 Se usará una herramienta web creada por Google labs para crear la app que vamos a utilizar, APP inventor es una página web donde se puede diseñar una app de manera muy sencilla para después programarla con diagrama de bloques.
 
-La app que diseñamos cuenta con 1 botón de conexión bluetooth este nos sirve para establecer una conexión entre el módulo HC-05 y nuestro Smartphone, 1 botón ON que envía un valor "A" al módulo HC-05, 1 botón OFF que envía un valor "B" y 1 slider que envía valores de entre "0" y "9".
+La app que diseñamos cuenta con 1 botón de conexión bluetooth este nos sirve para establecer una conexión entre el módulo HC-05 y nuestro Smartphone, 1 botón ON que envía un valor "A" al módulo HC-05, 1 botón OFF que envía un valor "B" y 1 slider que envía valores de entre "0" y "9". Este applicacion esta disponible en la carpeta [App](https://github.com/skgadi/LED-dimmer/tree/master/App).
 
 ![Applicación de Android](/Imagenes/dimer_bt.png)
 
@@ -38,8 +40,6 @@ Como la matriz que vamos a manejar funciona con 12v y la salida que maneja el mi
 Esto nos sirve por que la PWM enviara una señal cuadrada al transistor y este funcionara como un interruptor encendiendo y apagando la señal GND de la matriz a la misma frecuencia que el arduino.
 
 Como se menciona anteriormente es necesario una fuente de 12v para el matriz led, sin embargo, no se recomienda encender el microcontrolador con este voltaje, para seguridad usaremos un regulador de 5v para encender nuestro microcontrolador.
-
-Las conexiones quedarían de la siguiente manera:
 
 # Programación
 
@@ -85,6 +85,7 @@ Después diseñamos las tapas de la carcasa con una longitud que cubriera toda l
 
 Para finalizar con todo  el diseño creamos al último el arco que sostiene la carcasa de la lámpara con una longitud de 130 mm, una altura de 70mm y una anchura de 3 mm, para finalizar la extruimos  a 20mm.
 
- Este fue el proceso para crear el diseño de la carcasa que cubre la lámpara de led y el arduino.  
- 
- ![Diseno carcasa](/Imagenes/diseno_carcasa.png)
+Este fue el proceso para crear el diseño de la carcasa que cubre la lámpara de led y el arduino.  
+
+![Diseno carcasa](/Imagenes/diseno_carcasa.png)
+Este diseño esta disponible en la carpeta [DiseñoCarcasa](https://github.com/skgadi/LED-dimmer/tree/master/Dise%C3%B1oCarcasa).
