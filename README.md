@@ -6,10 +6,9 @@ Para este proyecto utilizamos LEDs blancos ultra brillantes que funcionan con un
 
 Usamos este simple circuito para encender 2 LEDs su corriente es de 22mA y nuestro reflector será de 50 LEDs así que pusimos el circuito 25 veces de la misma fuente, la corriente total de la matriz es de 550mA.
 
-Usamos una placa fenólica de 5cm x 10cm donde acomodamos los LEDs con el programa proteus hicimos el diseño para la placa fenólica.
+Usamos una placa fenólica de 5cm x 10cm donde acomodamos los LEDs con el programa proteus hicimos el diseño para la placa fenólica. Este diseño esta disponible en carpeta [Circuito](https://github.com/skgadi/LED-dimmer/Circuito).
 
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+![Circuito LED a 12V y 22mA](/Imagenes/circuito_led.jpg)
 
 # APP Android
 
@@ -19,8 +18,7 @@ Se usará una herramienta web creada por Google labs para crear la app que vamos
 
 La app que diseñamos cuenta con 1 botón de conexión bluetooth este nos sirve para establecer una conexión entre el módulo HC-05 y nuestro Smartphone, 1 botón ON que envía un valor "A" al módulo HC-05, 1 botón OFF que envía un valor "B" y 1 slider que envía valores de entre "0" y "9".
 
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+![Applicación de Android](/Imagenes/dimer_bt.png)
 
 # Arduino + BT
 
@@ -31,8 +29,7 @@ Usaremos un microcontrolador Arduino para la realización de nuestro proyecto es
 
 La conexión con el microcontrolador es muy sencilla:
 
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+![conexion](/Imagenes/conexion.png)
 
 Para accionar el LED usaremos una salida PWM del microntrolador. Es una señal cuadrada de alta frecuencia a la que se le puede cambiar el ancho de pulso, para un LED esta señal es como si encendiera y apagara a alta velocidad tan alta que no es visible para el ojo humano, sin embargo, se aprecia la disminución de luz en el LED.
 
@@ -90,5 +87,4 @@ Para finalizar con todo  el diseño creamos al último el arco que sostiene la c
 
  Este fue el proceso para crear el diseño de la carcasa que cubre la lámpara de led y el arduino.  
  
- ![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+ ![Diseno carcasa](/Imagenes/diseno_carcasa.png)
