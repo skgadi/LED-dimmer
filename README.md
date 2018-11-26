@@ -1,6 +1,7 @@
 # Matriz LED
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/k8CQs07Pgw4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/ofMYB50ozew/0.jpg)](https://www.youtube.com/watch?v=ofMYB50ozew)
+
 
 El LED es una fuente de luz constituida por un material semiconductor dotado de dos terminales. Es una alternativa rentable de bajo consumo en comparación con otras fuentes de luz como los bombillos o las lámparas fluorescentes.
 
